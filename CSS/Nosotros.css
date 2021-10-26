@@ -1,0 +1,32 @@
+#Nosotros .rayo{
+    position: absolute;
+    top: 0;
+    left: 580px;
+    color: white;
+    width: 40%;
+    height: 50%;
+    padding: 30px;
+    text-align: center;
+
+}
+#Nosotros h4{
+    font-size: 30px;
+    margin: 15px 0;
+}
+#Nosotros p{
+    font-size: 20px;
+}
+#Nosotros .contener{
+    position: relative;
+}
+#Nosotros{
+    background: #282727;
+    color: white;
+
+}
+#Nosotros img{
+    width: 100%;
+    height: 100%;
+    max-width: 530px;
+    max-height: 530px;
+}
