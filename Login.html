@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <link rel="stylesheet" href="CSS/loginstyles.css">
+    <link rel="stylesheet" href="CSS/fontello.css">
+    <title>Fast Tuning</title>
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="icon-cab"> Fast Tuning</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu"  for="menu-bar"></label>
+        <nav class="menu">
+            <a class="icon-home" href="index.html"> Inicio</a>
+            <a  class="icon-search" href="#"> Buscar Taller</a>
+            <a  class="icon-star" href="#"> Promocionar taller</a>
+            <a class="icon-smile" href="#"> Nosotros</a>
+            <a class="icon-users" href="Login.html"> Iniciar sesión</a>
+        </nav>
+    </div>
+</header>
+<main>
+
+    <div class="contenedor__todo">
+        <div class="caja__trasera">
+            <div class="caja__trasera-login">
+                <h3>¿Ya tienes una cuenta?</h3>
+                <p>Inicia sesión para entrar en la página</p>
+                <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+            </div>
+            <div class="caja__trasera-register">
+                <h3>¿Aún no tienes una cuenta?</h3>
+                <p>Regístrate para que puedas iniciar sesión</p>
+                <button id="btn__registrarse">Regístrarse</button>
+            </div>
+        </div>
+
+        <!--Formulario de Login y registro-->
+        <div class="contenedor__login-register">
+            <!--Login-->
+            <form action="" class="formulario__login">
+                <h2>Iniciar Sesión</h2>
+                <input type="text" placeholder="Correo Electronico">
+                <input type="password" placeholder="Contraseña">
+                <button>Entrar</button>
+            </form>
+
+            <!--Register-->
+            <form action="" class="formulario__register">
+                <h2>Regístrarse</h2>
+                <input type="text" placeholder="Nombre completo">
+                <input type="text" placeholder="Correo Electronico">
+                <input type="text" placeholder="Usuario">
+                <input type="password" placeholder="Contraseña">
+                <button>Regístrarse</button>
+            </form>
+        </div>
+    </div>
+</main>
+ <script src="js/login.js"></script>
+</body>
+</html>
