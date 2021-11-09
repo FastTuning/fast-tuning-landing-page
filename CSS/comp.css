@@ -2,11 +2,13 @@
 #Componentes .comp-columna {
     position: relative;
     margin-bottom: 30px;
+    top: 50px;
+    left: 0;
 }
 #Componentes .comp-descip {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0px;
     color: white;
     background: rgba(0,0,0,0.5);
     width: 45%;
@@ -22,6 +24,23 @@
 #Componentes .titulo{
     font-size: 25px;
     margin: 15px 0;
+    position:absolute;
+    top: 15px;
+    left: 12px;
+}
+#Componentes .componente--txt
+{
+    position:absolute;
+    top: 100px;
+    left: 12px;
+}
+#Componentes .Titulo_general{
+    text-align: center;
+    font-size: 35px;
+    color: #333333;
+    position: absolute;
+
+
 }
 @media (min-width: 480px) {
     #Componentes .contenedor {
@@ -33,11 +52,32 @@
     #Componentes .comp-columna{
         width: 49%;
     }
+    #Componentes .comp-descip{
+        width: 100%;
+    }
 
+}
+
+@media (min-width: 700px) {
+ #Componentes .comp-descip{
+     width: 45%;
+ }
 }
 @media (min-width: 1024px) {
     #Componentes .titulo {
       font-size: 30px;
+    }
+    #Componentes .componente--txt{
+        position:absolute;
+        top: 120px;
+        left: 12px;
+    }
+    #Componentes .comp-descip{
+        width: 45%;
+    }
+    #Componentes .Titulo_general{
+        top: 370px;
+        left: 520px;
     }
 
 
