@@ -12,7 +12,7 @@ var caja_trasera_register = document.querySelector(".box-register");
 
 //FUNCIONES
 
-function anchoPage(){
+function anchoPage(){ss
 
     if (window.innerWidth > 850){
         caja_trasera_register.style.display = "block";
