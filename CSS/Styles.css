@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,300;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital@1&display=swap');
 @import url(menu.css);
 @import url(banner.css);
-@import url(Nosotros.css);
+@import url(US.css);
 @import url(comp.css);
 *{
     margin: 0;
@@ -33,14 +33,14 @@ header{
     left: 0;
     z-index: 100;
 }
-.contenedor{
+.container{
     width: 98%;
     margin: auto;
 }
 h1{
     float: left;
 }
-header .contenedor{
+header .container{
     display: table;
 }
 section{
@@ -216,7 +216,7 @@ textarea{
 
 
 @media (min-width:1024px) {
-   .contenedor {
+   .container {
        width: 1000px;
    }
     .copy{
