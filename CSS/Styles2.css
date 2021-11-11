@@ -40,7 +40,7 @@ header {
     z-index: 100;
 }
 
-.contenedor {
+.container2 {
     width: 98%;
     height: 20%;
     margin: auto;
@@ -51,7 +51,7 @@ header {
     color: white;
 }
 
-.contenedor h2 {
+.container2 h2 {
     font-size: 2.5em;
 }
 
@@ -86,7 +86,7 @@ h1 {
 
 
 
-header .contenedor {
+header .container2 {
     display: table;
 }
 
