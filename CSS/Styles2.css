@@ -12,7 +12,7 @@
 
 p {
     font-family: 'Mulish', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 h1,
@@ -115,36 +115,39 @@ section {
     color: white;
     text-decoration: none;
 }
-.group__title{
-    font-family: 'Pacifico',cursive;
+
+.group__title {
     color: black;
     font-weight: bold;
     font-size: 3em;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-.our-team{
+.our-team {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
+
 .our-team .container--flex {
     align-items: flex-start;
 }
-.our-team__title{
-    font-family: 'Pacifico',cursive;
+
+.our-team__title {
     color: black;
     font-weight: bold;
     font-size: 2em;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.our-team__img{
+
+.our-team__img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
     margin: auto;
 }
-.our-team__txt{
+
+.our-team__txt {
     padding: 10px;
     text-align: justify;
 }
@@ -160,6 +163,7 @@ section {
 .column {
     margin: 30px 0;
 }
+
 .column img {
     width: 300px;
     height: 300px;
@@ -190,14 +194,15 @@ section {
 }
 
 
-@media screen and (min-width:480px){
-    .our-team__img{
+@media screen and (min-width:480px) {
+    .our-team__img {
         width: 150px;
         height: 150px;
     }
 }
-@media screen and (min-width:768px){
-    .our-team__img{
+
+@media screen and (min-width:768px) {
+    .our-team__img {
         width: 220px;
         height: 220px;
     }
@@ -214,29 +219,34 @@ section {
         width: 90%;
         margin: 20px 0;
     }
+
     .text-left {
         text-align: center;
     }
 }
 
-@media screen and (min-width:1024px){
-   
+@media screen and (min-width:1024px) {
+
     .main-footer .container--flex {
         align-items: flex-start;
     }
-    .our-team__img{
+
+    .our-team__img {
         width: 310px;
         height: 310px;
     }
-    .our-team__title{
+
+    .our-team__title {
         font-size: 2.1em;
     }
+
     .container--flex {
         flex-wrap: nowrap;
     }
 }
-@media screen and (min-width:1600px){
-    .our-team__img{
+
+@media screen and (min-width:1600px) {
+    .our-team__img {
         width: 420px;
         height: 420px;
     }
