@@ -8,4 +8,4 @@
 
    Examples:
    |email|                      |password| 
-   |manuelamesquita@gmail.com|  |manuelamesquita|
+   |HugoAdama@gmail.com|        |HugoAdama|
