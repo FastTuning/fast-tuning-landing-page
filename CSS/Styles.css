@@ -214,10 +214,33 @@ textarea{
 }
 .white{
     color: white;
-   }
+}
 
+.row{
+    display: flex;
+    flex-direction: row;
+}
 
+.col{
+    display: flex;
+    flex-direction: column;
+}
 
+.w-10{
+    width: 100%;
+}
+
+.g-10{
+    gap: 10px;
+}
+
+.g-50{
+    gap:50px;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
 @media (min-width:1024px) {
    .container {
        width: 1000px;
