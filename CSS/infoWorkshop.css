@@ -7,7 +7,7 @@
 }
 
 body{
-    /* background-image: url("imgen/fondo.png"); */
+    background-image: url("imgen/fondo-info-workshop.png");
     background-color: #E0E0E0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,7 +17,6 @@ body{
 
 main{
     width: 100%;
-    /* padding: 20px; */
     margin: auto;
     margin-top: 2%;
 }
@@ -29,12 +28,10 @@ main{
     top: 50px;
     height: 550px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    
 }
 
-a{
-    color: white;
-}
 .container__image__sale{
     width: 80%;
     height: 100%;
@@ -131,6 +128,22 @@ a{
     border: 1px solid #252525;
     padding: 3%;
     border-radius: 10%;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.mt-10{
+    margin-top: 10%;
+}
+
+.gap-30{
+    gap: 30px;
 }
 @media screen and (max-width: 850px){
 
