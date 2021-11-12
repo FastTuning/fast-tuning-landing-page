@@ -1,91 +1,89 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-    /* background-image: url("imgen/fondo.png"); */
-    background-color: #E0E0E0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+body {
+  /* background-image: url("imgen/fondo.png"); */
+  background-color: #e0e0e0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-main{
-    width: 100%;
-    margin: auto;
-    margin-top: 2%;
+main {
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
 }
 
-.Container__all{
-    width: 80%;
-    margin: auto;
-    position: relative;
-    top: 50px;
-    height: 1050px;
+.Container__all {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+  height: 1050px;
 }
 
-.img__workshop{
-    width: 100%;
-    border-radius: 10%;
+.img__workshop {
+  width: 100%;
+  border-radius: 10%;
 }
 
-.text__showmore{
-    color: white;
+.text__showmore {
+  color: white;
 }
-.input__container{
-    margin-bottom: 4%;
+.input__container {
+  margin-bottom: 4%;
 }
-.input__search{
-    width: 40%;
-    border-radius: 10%;
-    padding: 10px;
-    border: 1px solid #E0E0E0; 
-
+.input__search {
+  width: 40%;
+  border-radius: 10%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
 }
-.container__bodyworkshops{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: white;
-    row-gap: 4%;
-    column-gap: 4%;
-    background-color: #E0E0E0;
-}
-
-.container__workshop{
-  
-    border: 0.5px solid black;
-    background-color: white;
-    border-radius: 10%;
-}
-.name__workshop{
-    text-align: center;
-}
-.description__workshop{
-    text-align: justify;
-    color: black;
-    margin-top: 4%;
-    margin-bottom: 4%;
+.container__bodyworkshops {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+  row-gap: 4%;
+  column-gap: 4%;
+  background-color: #e0e0e0;
 }
 
-.container__info{
-    display: flex;
-    flex-direction: column;
-    border-radius: 15%;
-    padding: 4%;
+.container__workshop {
+  border: 0.5px solid black;
+  background-color: white;
+  border-radius: 10%;
+}
+.name__workshop {
+  text-align: center;
+}
+.description__workshop {
+  text-align: justify;
+  color: black;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
-.button__showmore{
-    background: #4f4f4f;
-    border-radius: 10%;
-    border: 0.5px solid #4f4f4f;
-    width: 40%;
-    margin: auto;
-    padding: 2%;
+.container__info {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15%;
+  padding: 4%;
+}
+
+.button__showmore {
+  background: #4f4f4f;
+  border-radius: 10%;
+  border: 0.5px solid #4f4f4f;
+  width: 40%;
+  margin: auto;
+  padding: 2%;
 }
 
 /* 
@@ -137,7 +135,7 @@ main{
 .box button:hover{
     background: #ffffff;
     color: #1E90FF;
-} */ 
+} */
 /*Formularios*/
 /* 
 .container--register{
@@ -149,8 +147,8 @@ main{
     top: -185px;
     left: 10px; */
 
-    /*La transicion va despues del codigo JS*/
-    /* transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+/*La transicion va despues del codigo JS*/
+/* transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
 }
 
 .container--register form{
@@ -190,7 +188,6 @@ main{
     outline: none;
 } */
 
-
 /* 
 
 .forms__login{
@@ -202,37 +199,34 @@ main{
 }
 .box__back{
     left: 20px;
-} */ 
+} */
 
+@media screen and (max-width: 850px) {
+  main {
+    margin-top: 50px;
+  }
 
-@media screen and (max-width: 850px){
+  .box {
+    max-width: 350px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto;
+  }
 
-    main{
-        margin-top: 50px;
-    }
+  .box div {
+    margin: 0px;
+    position: absolute;
+  }
 
-    .box{
-        max-width: 350px;
-        height: 300px;
-        flex-direction: column;
-        margin: auto;
-    }
+  /*Formularios*/
 
-    .box div{
-        margin: 0px;
-        position: absolute;
-    }
+  .container--register {
+    top: -10px;
+    left: -5px;
+    margin: auto;
+  }
 
-
-    /*Formularios*/
-
-    .container--register{
-        top: -10px;
-        left: -5px;
-        margin: auto;
-    }
-
-    .container--register form{
-        position: relative;
-    }
+  .container--register form {
+    position: relative;
+  }
 }
