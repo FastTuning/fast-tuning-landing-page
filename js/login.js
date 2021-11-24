@@ -9,8 +9,12 @@ var formulario_register = document.querySelector(".forms__register");
 var contenedor_login_register = document.querySelector(".container--register");
 var caja_trasera_login = document.querySelector(".box-login");
 var caja_trasera_register = document.querySelector(".box-register");
+var formulario=document.querySelector(".inpunmber")
+
 
 //FUNCIONES
+
+
 
 function anchoPage(){
 
